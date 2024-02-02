@@ -83,7 +83,7 @@ num=true
 num=null
 
 
-num = String(num)
+num = Object(num)
 // console.log(num, typeof num,"num");
 
 

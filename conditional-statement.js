@@ -131,10 +131,10 @@
 // 1. find percentage then print grades
 
 
-let a=prompt("Enter the Value a")
-let b=prompt("Enter the Value b")
-let c=((Number(b)+Number(a))/200)*100
-   console.log(c,"%");     
+// let a=prompt("Enter the Value a")
+// let b=prompt("Enter the Value b")
+// let c=((Number(b)+Number(a))/200)*100
+//    console.log(c,"%");     
 
 // if (c>=95) {              
 //     console.log("Grade A++");
@@ -155,21 +155,44 @@ let c=((Number(b)+Number(a))/200)*100
 //     console.log("fail");
 // }
 
-switch (c) {
-    case 'c>=95':
-        console.log("Grade A++");
-        break;
-    case 'c>80':            
-        console.log("Grade A");
-        break;
-    case 'c>=60':
-        console.log("Grade B");
-        break;
-    case 'c>=50':
-        console.log("Grade C");
-    case 'c>=30':
-        console.log("Grade D");
-         break;
-    default: console.log("Fail");
-        break;
+// switch (true) {
+//     case c>=95:
+//         console.log("Grade A++");
+//         break;
+//     case c>80:            
+//         console.log("Grade A");
+//         break;
+//     case c>=60:
+//         console.log("Grade B");
+//         break;
+//     case c>=50:
+//         console.log("Grade C");
+//     case c>=30:
+//         console.log("Grade D");
+//          break;
+//     default: console.log("Fail");
+//         break;
+// }
+
+let age=prompt("Enter age")
+ let country=prompt("Enter Country")
+ if (country=="India"){
+    if (age>=18){
+        console.log("You are  eligible");
+    }
+    else{
+        console.log("You are not eligible");
+    }
+
+ }
+ else{
+    console.log("You are from other country" );
 }
+
+/** no is even or odd
+ * no is negative or positive or zero
+ * given vallue is number or not
+ * largest of two number
+ * smallest of three number
+ * vowel or consonants
+ */

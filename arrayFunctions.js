@@ -51,16 +51,15 @@
 // console.log(data);
 
 
-let arr=[4,67,90,46,56,"ayaan","kajal","floor"];
-let arr2=["closure","formal","dual","coma"]
-for(i=0;i<arr.length;i++){
-    console.log(arr[i]);
-}
-// console.log(arr.length);
-// console.log(arr[3]);
-// console.log(arr.concat(arr2));
-
-// console.log(arr.entries(5));
+// let arr=[4,67,90,46,56,"ayaan","kajal","floor"];
+// for(i=0;i<arr.length;i++){
+    //     console.log(arr[i]);
+    // }
+    // console.log(arr.length);
+    // console.log(arr[3]);
+    // console.log(arr.concat(arr2));
+    
+    // console.log(arr.entries(5));
 // // console.log(arr.copyWithin(2,5,6));
 // arr.map((item,index)=>{
 //     console.log(item,index);
@@ -76,8 +75,66 @@ for(i=0;i<arr.length;i++){
 // let data=arr.some((item)=>
 // {
 //     if (item%2===0) {
-//         return item
+    //         return item
 //     }
-// }
-// )
+
+// })
+
 // console.log(data);
+
+let arr=[15,30,105,56,78,99,45,67,34,756]
+// console.log(arr);
+// arr.map((item)=>{
+//     console.log(item);
+//     if (item%2==0) {
+//     console.log("This is a even number");
+//   }
+//    else{
+//    console.log("This is a odd number");
+//   }
+// })
+
+// let result=arr.findIndex((item)=>item%2===0)
+// console.log(result);
+// console.log(arr.fill("Sakshi",7,8));
+
+// let data="hi sakshi"
+// console.log(Array.from(data));
+
+// console.log(arr.includes("Sakshi"));
+
+// console.log(Array.isArray(arr));
+
+// let arr2=arr.join('-')
+// console.log(arr2);
+
+// let keys=arr.keys()
+// for(key of keys){
+//     console.log(key);
+// }
+
+
+// arr.push("Sakshi")
+// console.log(arr);
+// console.log(arr.pop());
+// console.log(arr,"2nd");
+arr.unshift("Sakshi")
+console.log(arr);
+console.log(arr.shift());
+console.log(arr,"2nd");
+
+/**
+ *  push used to insert an element at last of array
+ * unshift same as push but add element at start index of array
+ * 
+ * pop used to remove element from lat position
+ * shift same as pop but remove from 1st position
+ * 
+ * 
+ */
+
+
+const array1 = [1, 2, 3, 4];
+
+let data=array1.reduce((acc,currentValue)=> acc+currentValue)
+console.log(data);

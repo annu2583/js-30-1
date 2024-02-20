@@ -82,7 +82,7 @@
 
 // console.log(data);
 
-let arr=[15,30,105,56,78,99,45,67,34,756]
+// let arr=[15,30,105,56,78,99,45,67,34,756]
 // console.log(arr);
 // arr.map((item)=>{
 //     console.log(item);
@@ -118,10 +118,10 @@ let arr=[15,30,105,56,78,99,45,67,34,756]
 // console.log(arr);
 // console.log(arr.pop());
 // console.log(arr,"2nd");
-arr.unshift("Sakshi")
-console.log(arr);
-console.log(arr.shift());
-console.log(arr,"2nd");
+// arr.unshift("Sakshi")
+// console.log(arr);
+// console.log(arr.shift());
+// console.log(arr,"2nd");
 
 /**
  *  push used to insert an element at last of array
@@ -134,7 +134,70 @@ console.log(arr,"2nd");
  */
 
 
-const array1 = [1, 2, 3, 4];
+// const array1 = [1, 2, 3, 4];
 
-let data=array1.reduce((acc,currentValue)=> acc+currentValue)
-console.log(data);
+// let data=array1.reduce((acc,currentValue)=> acc+currentValue)
+// console.log(data);
+
+// const array2 = [2, 12, 8, 130, 44,"script"];
+
+// const found = array2.find((element) => element%5===0);
+// const result= array2.findLastIndex((element)=> element<50)
+// console.log(array2.includes("script"));
+// console.log(array2.join("/"));
+// console.log(array2);
+
+// const plants =['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+// console.log(plants.push('potato'));
+// console.log(plants.pop('potato'));
+// console.log(plants.unshift('potato'));
+// console.log(plants.shift('potato'));
+// console.log(plants.lastIndexOf)('tomato');
+// const reverse=plants.reverse();
+
+// const shift=plants.shift();
+// console.log(plants);                                                                                                                                                                                                                 
+
+// const arr3=[2,4,5,6,8,9];
+// let data=arr3.reduce((acc,currentValue)=>acc+currentValue)
+// console.log(data);
+
+// const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+// const ans =words.filter((word)=>word.length<6);
+// console.log(ans);
+
+
+
+// let arr=[]
+
+// function showData(){
+//     if(arr.length<5){
+//         let num= prompt("Enter number")
+//         arr.push(num)
+//         console.log(arr,"array 1st time");
+//         showData()
+//     }
+//     else{
+//         console.log(arr,"array is");
+//         arr.map((item,index)=>{
+//             console.log(item);
+//         })
+    
+//     }
+
+// }
+
+// showData()
+
+// const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+
+// console.log(words.splice(2,2,"Sakshi"));
+// console.log(words);
+
+// console.log(words.slice(2));
+// console.log(words.slice(2,4));
+// console.log(words);
+
+let arr=[1,100,2,400,3,6,56]
+
+console.log(arr.sort());

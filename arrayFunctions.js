@@ -198,6 +198,13 @@
 // console.log(words.slice(2,4));
 // console.log(words);
 
-let arr=[1,100,2,400,3,6,56]
+// let arr=[1,100,2,400,3,6,56]
 
-console.log(arr.sort());
+// console.log(arr.sort());
+
+
+let arr=[1,2,3,4,5]
+let first=arr[0];
+console.log(first);
+let last=arr[arr.length -1];
+console.log(last);

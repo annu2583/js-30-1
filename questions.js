@@ -74,6 +74,14 @@ console.log(myColor.toString());
 console.log(myColor.join('+'));
 
 
-let arr8=["w3Resources"];
-let input=(arr8.isArray('w3Resources'));
+let data=["w3Resources","w3"];
+let input=(Array.isArray(data));
 console.log(input);
+
+// let arr9 = 32243;
+// let output =(arr9.reverse());
+// console.log(output);
+
+
+
+

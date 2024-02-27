@@ -117,7 +117,7 @@ button {
     letter-spacing: 0.15px;
 }
 .footer_body{
-    color: var(--white);
+    color: #ABB5BA;
     font-family: var(--footer-font);
     font-size: 14px;
     font-style: normal;
@@ -126,7 +126,6 @@ button {
     letter-spacing: 0.17px;
 
 }
-
 
 /* Header section */
 .header_bar{
@@ -182,7 +181,8 @@ a{
     background-color: black;
 }
 .text_color{
-    color:#FFF
+    color: #ABB5BA;
+    font-size: 16px;
 }
 .footer_contact{
     display: flex;
@@ -191,20 +191,76 @@ a{
 }
 .middle_footer{
 display: flex;
-flex-direction: column;
+display: flex;
 gap: 18px;
+justify-content: space-between;
 }
 
 
 .footer_divider {
     height: 1px;
-    max-width: 21%;
+    max-width: 313px;
     width: 100%;
     background-color: #ABB5BA;
     display: block;
+    border-radius :5px;
 }
 
-
+.column_content{
+    max-width: 311px;
+    width: 100%;
+}
+.first_column{
+    display: grid;
+    gap: 15px;
+}
+.third_column_info{
+    max-width: 417px;
+    width: 100%;
+}
+.mail{
+    max-width: 411px;
+    width: 100%;
+    text-align: start;
+    background: black;
+    border: 1px solid #ABB5BA;
+    border-radius: 44px;
+    padding: 12px;
+}
+.third_column{
+    display: grid;
+    gap: 50px;
+}
+.join{
+    background-color: #EAC07F;
+    max-width: 231px;
+    width: 100%;
+    padding: 12px 30px;
+    border-radius: 44px;
+    color: #FFFFFF;
+    ;
+}
+.community{
+    text-align: end;
+}
+.footer_dividerII{
+    height: 1px;
+    /* max-width: 1528px; */
+    /* width: 100%; */
+    background-color: #ABB5BA;
+    display: block;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.lower_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer_content{
+    display: flex;
+    gap: 20px;
+ }
 
 
 @media screen and (max-width:768px) {

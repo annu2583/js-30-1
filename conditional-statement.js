@@ -174,20 +174,20 @@
 //         break;
 // }
 
-// let age=prompt("Enter age")
-//  let country=prompt("Enter Country")
-//  if (country=="India"){
-//     if (age>=18){
-//         console.log("You are  eligible");
-//     }
-//     else{
-//         console.log("You are not eligible");
-//     }
+let age=prompt("Enter age")
+ let country=prompt("Enter Country")
+ if (country=="India"){
+    if (age>=18){
+        console.log("You are  eligible");
+    }
+    else{
+        console.log("You are not eligible");
+    }
 
-//  }
-//  else{
-//     console.log("You are from other country" );
-// }
+ }
+ else{
+    console.log("You are from other country" );
+}
 
 /** no is even or odd
  * no is negative or positive or zero
@@ -411,7 +411,7 @@
 // }
 // }
 
-array=["Sakshi","Sapna","Anu"]
+// array=["Sakshi","Sapna","Anu"]
 
 // // console.log(array[2])
 
@@ -426,18 +426,18 @@ array=["Sakshi","Sapna","Anu"]
                  
 //while
 
-let i=0;  //initialization
-while(i<array.length){  //condition check
-  console.log(array[i]); //statement of execution
-  i++; //inc/dec
-}
+// let i=0;  //initialization
+// while(i<array.length){  //condition check
+//   console.log(array[i]); //statement of execution
+//   i++; //inc/dec
+// }
 
 
-//do -while
-let j=0;
-do{
-  console.log(array[j]);
-  j++
-}while(j<0)
+// //do -while
+// let j=0;
+// do{
+//   console.log(array[j]);
+//   j++
+// }while(j<0)
 
 

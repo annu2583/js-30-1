@@ -53,7 +53,7 @@ body {
 /* Commom css start */
 
 /* Heading */
-.btn_icon {
+/* .btn_icon {
     display: inline-flex;
     align-items: center;
     gap: 20px;
@@ -70,7 +70,7 @@ body {
     padding: 12px, 30px, 12px, 30px;
     gap: 8px;
 
-}
+} */
 
 .project_heading {
     color: var(--primary_heading);
@@ -314,7 +314,17 @@ span {
     background-color: #E1DED6;
     margin-top: 100px;
 
+
 }
+
+
+
+.flow_img {
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
 
 .testimony {
     display: flex;
@@ -326,6 +336,18 @@ span {
     display: grid;
     gap: 50px;
     padding-top: 100px;
+}
+
+.testimony_card {
+    background-color: #fff;
+}
+
+.testi_info {
+    padding: 24px 20px;
+}
+
+.testimony_section {
+    position: relative;
 }
 
 .highly_section {
@@ -344,21 +366,62 @@ span {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    max-width: 662px;
 }
-.highly_card{
+
+.highly_card {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.card_info{
+
+.card_info {
     text-align: center;
     padding: 20px;
 }
 
+.retreat_btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 30px;
+    border-radius: 44px;
+    color: var(--white);
+    max-width: 177px;
+    height: 50px;
+    padding: 12px, 30px, 12px, 30px;
+    gap: 8px;
+    background-color: black;
+    font-family: var(--body-font);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
 
 
 
+}
+.inner_info{
+        background-color: #F9EABD;
+        border-radius: 10px;
+        padding: 15px 30px;
+        color: black;
+        display: inline-flex;
+        align-items: center;
+}
+.img_section{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+}
+.regular_img{
+    position: relative;
 
+}
+.inner_info{
+  
+    position: absolute;
+  
+}
 
 
 

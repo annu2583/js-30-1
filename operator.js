@@ -2,24 +2,25 @@
 
 
 
-//  let a= prompt("enter first value");
+ let a= prompt("enter first value");
  
-// let b=prompt("enter second value");
+let b=prompt("enter second value");
 
-// console.log(typeof a, typeof b);
+console.log(typeof a, typeof b);
 
-// let c= Number(a)+Number(b);
-// let c=a%b;
-// console.log(c);
-// alert("The sum of number is " + c)
+// let c= a+b;
+let c=a%b;
+console.log(c);
+alert("The sum of number is " + c)
 
 // alert("The sum of a and b is "+ (a+b))
-// alert("Sakhsi this side")
+alert("Sakhsi this side")
 
-// let c=prompt("enter a no")
-// alert(c)
-// let res=confirm("Are you sure want to delete")
-// console.log(res,"res");
+
+let d=prompt("enter a no")
+alert(d)
+let res=confirm("Are you sure want to delete")
+console.log(res,"res");
 
 
 // let a=10;

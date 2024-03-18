@@ -400,38 +400,86 @@ span {
 
 
 }
-.inner_info{
-        background-color: #F9EABD;
-        border-radius: 10px;
-        padding: 15px 30px;
-        color: black;
-        display: inline-flex;
-        align-items: center;
+
+.inner_info {
+    background-color: #F9EABD;
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
 }
-.img_section{
+
+.img_section {
     display: grid;
     grid-template-columns: auto auto;
     gap: 30px;
 }
-.regular_img{
+
+.regular_img {
     position: relative;
 
 }
-.inner_info{
-  
+
+.inner_info {
+
     position: absolute;
-  
+
 }
 
+.religion_sec {
+    display: flex;
+    gap: 128px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.info_sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.img_section{
+    position: relative;
+}
+.regular_img{
+    display: block;
+}
+.inner_info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.play_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.vdo_sec{
+    position: relative;
+    max-width: 100%;
+}
+.img{
+    display: block;
+}
 
+.flowr_img {
+    position: relative;
+}
 
+.flowr_img::before {
+    content: "";
+    background: url('./images/testimony.png');
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    transform: rotate(24deg);
 
-
-
-
-
+}
 
 
 
@@ -669,9 +717,11 @@ input {
     .section_healing {
         gap: 15px;
     }
+    
+    .religion_sec{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
 
-    /* .highly_heading{
-    max-width: 375px;
-    width: 100%;
-} */
 }

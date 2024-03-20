@@ -17,6 +17,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
     <!-- <script src="./operator.js"></script> -->
     <!-- <script src="./conditional-statement.js"></script> -->
@@ -58,16 +59,16 @@
                     </svg>
 
                     <div class="nav_bar_info">
-                        <nav class="nav_bar">
+                        <nav class="nav_bar nav_menu">
                             <ul class="nav_list">
                                 <li class="nav_item">
-                                    <a class="nav_link link_button" href="#">Retreat Experience</a>
+                                    <a class="nav_link link_button" href="">Retreat Experience</a>
                                 </li>
                                 <li class="nav_item">
-                                    <a class="nav_link link_button " href="#">Veteran</a>
+                                    <a class="nav_link link_button " href="">Veteran</a>
                                 </li>
                                 <li class="nav_item">
-                                    <a class="nav_link link_button" href="#">Healers</a>
+                                    <a class="nav_link link_button" href="">Healers</a>
                                 </li>
                             </ul>
                         </nav>
@@ -182,9 +183,12 @@
                             <img src="./assests/images/girl.png">
                             <div class="sm_heading testi_info">What is the science of psychedelics?</div>
                         </div>
-                        <div class="flowr_img">
-                            <img src="./assests/images/testimony.png">
-                        </div>
+                        <span>
+                            <div class="flowr_img">
+                                <img src="./assests/images/testimony.png">
+                            </div>
+
+                        </span>
                     </div>
                 </div>
             </div>
@@ -376,7 +380,74 @@
         </div>
     </section>
 
-    <!-- 
+
+    <!-- <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="slide-card text-center">
+                    <img class="slide-card-img-top" src="1.jfif" alt="" />
+                    <div class="slide-card-body">
+                        <h5>
+                            Ronne Galle <br />
+                            <span> Project Manager </span>
+                        </h5>
+                        <p class="slide-card-text">
+                            “ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                            nihil impedit quo minus id quod maxime placeat ”
+                        </p>
+                    </div>
+                </div>
+            </div> -->
+<!-- 
+            <div class="swiper-slide">
+                <div class="slide-card text-center">
+                    <img class="slide-card-img-top" src="2.jfif" alt="" />
+                    <div class="slide-card-body">
+                        <h5>
+                            Ronne Galle <br />
+                            <span> Project Manager </span>
+                        </h5>
+                        <p class="slide-card-text">
+                            “ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                            nihil impedit quo minus id quod maxime placeat ”
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="slide-card text-center">
+                    <img class="slide-card-img-top" src="3.jfif" alt="" />
+                    <div class="slide-card-body">
+                        <h5>
+                            Ronne Galle <br />
+                            <span> Project Manager </span>
+                        </h5>
+                        <p class="slide-card-text">
+                            “ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                            nihil impedit quo minus id quod maxime placeat ”
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="slide-card text-center">
+                    <img class="slide-card-img-top" src="4.jfif" alt="" />
+                    <div class="slide-card-body">
+                        <h5>
+                            Ronne Galle <br />
+                            <span> Project Manager </span>
+                        </h5>
+                        <p class="slide-card-text">
+                            “ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                            nihil impedit quo minus id quod maxime placeat ”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- 
    <p>functions</p>
     <button onclick="handleClick()">Click me</button>
     <button onclick="findsquare(4)">find square</button>
@@ -387,8 +458,44 @@
 
 
 
-    <!-- <script src="./domfunction.js"></script> -->
+        <script src="./toggle.js"></script>
 
-</body>
+ </body> 
+<!-- <div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper(".swiper", {
+        // Navigation arrows
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        // Default parameters
+        slidesPerView: 1,
+        loop: true,
+        centeredSlides: true,
+        spaceBetween: 10,
+        // Responsive breakpoints
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            // when window width is >= 640px
+            640: {
+                slidesPerView: 3,
+                spaceBetween: 40
+            }
+        }
+    });
+</script> --> 
 
 </html>

@@ -1,10 +1,19 @@
-let hiddenList = document.querySelector(".nav_menu")
-let toggle = document.querySelector(".togle_icon")
+// let menu = document.getElementsByClassName('nav_menu')
+// let toggle = document.getElementsByClassName('togle_icon')
+//  function navmenu() {
+//     if () {
+        
+//     }
+//  }
+
+let menu = document.querySelector(".nav_menu")
+let toggle = document.querySelector('.togle_icon')
+let cross = document.querySelector('.cross_icon')
 toggle.addEventListener('click',function(){
-    // console.log(hiddenList);
-    hiddenList.classList.toggle('shown')
+    menu.classList.add("active")
+}
+);
+cross.addEventListener('click',function(){
+    menu.classList.remove("active")
+
 })
-
-
-let arr=[1,3,45454]
-console.log(arr);

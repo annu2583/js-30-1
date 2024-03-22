@@ -500,7 +500,10 @@ span {
 .img{
     display: block;
 }
-
+.cross_icon{
+    display: none;
+    text-align: right;
+ }
 
 
 
@@ -745,18 +748,31 @@ input {
         gap: 30px;
     }
     .nav_menu{
-        display: flex;
+        display: none;
         flex-direction: column;
-        background-color: darkgrey;
-        height: 400px;
-        border: 1px solid #997f7f;
+        background-color: rgb(226, 225, 225);
+        /* height: 400px; */
+        border: 1px solid #e6e0e0;
         box-shadow: 2px 3px 4px #9E9E9E;
         padding: 20px;
     }
-    .nav_menu{
-        display: none;
+    .active{
+        display: flex;
     }
-
+.side_bar{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 39%;
+    background-color: #fbf9f9;
+    overflow-x: hidden;
+    transition: 0.8s;
+    /* padding-top: 35px; */
+    margin-top: 10%;
+ }
+ .cross_icon{
+    display: block;
+ }
 }
 
 

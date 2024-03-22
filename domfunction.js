@@ -63,11 +63,7 @@ function menu() {
 // })
 
 
-let hiddenList = document.querySelector(".nav_menu")
-let toggle = document.querySelector(".togle_icon")
-toggle.addEventListener('click',function(){
-    console.log(hiddenList);
-})
+
 
 
 

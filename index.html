@@ -11,13 +11,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Marcellus&display=swap"
         rel="stylesheet">
-    <link href="assests/meditate.css" rel="stylesheet">
+    <link href="meditate.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
     <!-- <script src="./operator.js"></script> -->
     <!-- <script src="./conditional-statement.js"></script> -->
@@ -168,13 +168,14 @@
     <!-- Testimony section -->
     <section class="testimony_section">
         <div class="container">
-            <div class="">
+            <div class="testimony_box">
                 <div class="testimony_container">
                     <h1 class="section_heading">Testimony</h1>
+                    <div class="flow_img">
+                        <img src="./assests/images/beans.png">
+                    </div>
                     <div class="testimony testimony_cards">
-                        <div class="flow_img">
-                            <img src="./assests/images/testi flow.png">
-                        </div>
+                        
                         <div class="testimony_card">
                             <img src="./assests/images/sci.png">
                             <div class="sm_heading testi_info">What is the science of psychedelics?</div>
@@ -207,7 +208,52 @@
             <div class="highly_section">
                 <h1 class="section_heading highly_heading">Highly experienced and here for you at every step.</h1>
                 <div class="highly_card">
-                    <card>
+                     <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <card>
+            <img src="./assests/images/card11.png">
+            <div class="card_info">
+                <p class="sm_heading">Amands Feilding</p>
+                <p class="section_info">Co-founder & Advisor</p>
+            </div>
+        </card>
+      </div>
+      <div class="swiper-slide">
+        <card>
+            <img src="./assests/images/card22.png">
+            <div class="card_info">
+                <p class="sm_heading">Amands Feilding</p>
+                <p class="section_info">Co-founder & Advisor</p>
+            </div>
+        </card>
+      </div>
+      <div class="swiper-slide">
+        <card>
+            <img src="./assests/images/card33.png">
+            <div class="card_info">
+                <p class="sm_heading">Amands Feilding</p>
+                <p class="section_info">Co-founder & Advisor</p>
+            </div>
+        </card>
+      </div>
+      <div class="swiper-slide">
+        <card>
+            <img src="./assests/images/card44.png">
+            <div class="card_info">
+                <p class="sm_heading">Amands Feilding</p>
+                <p class="section_info">Co-founder & Advisor</p>
+            </div>
+        </card>
+      </div>
+
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+                    <!-- <card>
                         <img src="./assests/images/card11.png">
                         <div class="card_info">
                             <p class="sm_heading">Amands Feilding</p>
@@ -238,7 +284,7 @@
                             <p class="sm_heading">Amands Feilding</p>
                             <p class="section_info">Co-founder & Advisor</p>
                         </div>
-                    </card>
+                    </card> -->
                 </div>
             </div>
         </div>
@@ -263,14 +309,18 @@
 
                 </div>
                 <div class="img_section">
+                    <div>
                     <div class="regular_img">
                         <img src="./assests/images/Rectangle 603.png">
                         <p class="sm_heading inner_info">Regular Retreat</p>
                     </div>
+                </div>
+                <div>
                     <div class="regular_img">
                         <img src="./assests/images/Rectangle 603.png">
                         <p class="sm_heading inner_info">NFT Retreat </p>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
@@ -279,11 +329,13 @@
     <section>
         <div class="container">
             <div class="religion_sec">
-                <div class="vdo_sec">
-                    <img src="./assests/images/pebbles.png">
-                    <div class="play_btn">
-                        <img src="./assests/images/Play Icon (1).png">
-
+                <div>
+                    <div class="vdo_sec">
+                        <img src="./assests/images/pebbles.png">
+                        <div class="play_btn">
+                            <img src="./assests/images/Play Icon (1).png">
+    
+                        </div>
                     </div>
                 </div>
 
@@ -460,46 +512,53 @@
 
 
 
-
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+   delay: 1000,
+ },
+ // Responsive breakpoints
+ breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1.5,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 2,
+      spaceBetween: 30
+    },
+    // when window width is >= 640px
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    991: {
+      slidesPerView: 4,
+      spaceBetween: 40
+    }
+  },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>s
 
     <script src="./toggle.js"></script>
 
 </body>
-<!-- <div class="swiper-button-prev"></div>
-<div class="swiper-button-next"></div>
-</div>
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-<script>
-    const swiper = new Swiper(".swiper", {
-        // Navigation arrows
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev"
-        },
-        // Default parameters
-        slidesPerView: 1,
-        loop: true,
-        centeredSlides: true,
-        spaceBetween: 10,
-        // Responsive breakpoints
-        breakpoints: {
-            // when window width is >= 320px
-            320: {
-                slidesPerView: 1,
-                spaceBetween: 20
-            },
-            // when window width is >= 480px
-            480: {
-                slidesPerView: 2,
-                spaceBetween: 30
-            },
-            // when window width is >= 640px
-            640: {
-                slidesPerView: 3,
-                spaceBetween: 40
-            }
-        }
-    });
-</script> -->
+
 
 </html>

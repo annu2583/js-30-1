@@ -387,7 +387,10 @@ span {
 .link_button:hover{
     text-decoration-line: underline;
 }
-
+.icon_btn:hover{
+     color: #EAC07F;
+    transition-timing-function: 2s linear;
+}
 
 
 

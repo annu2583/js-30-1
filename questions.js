@@ -185,3 +185,8 @@ mm = date + '-' + month + '-' + year ;
 console.log(mm);
 
 
+
+myColor = ["Red", "Green", "White", "Black"];
+console.log(myColor.toString());
+console.log(myColor.join());
+

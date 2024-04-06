@@ -14,8 +14,8 @@
 // let num =Math.pow(4,5);
 // console.log(num);
 
-// let num =Math.random();
-// console.log(num*34);
+let num =Math.random();
+console.log(num*34);
 
 
 // let num =Math.round(45.788);
@@ -28,8 +28,8 @@
 // let num =Math.sqrt(369);
 // console.log(num);
 
-let num =Math.trunc(344.566);
-console.log(num);
+// let num =Math.trunc(344.566);
+// console.log(num);
 
 
 let obj={

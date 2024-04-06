@@ -557,7 +557,7 @@ span {
     padding: 12px 30px;
     border-radius: 44px;
     color: var(--white);
-    max-width: 177px;
+    max-width: 219px;
     height: 50px;
     padding: 12px, 30px, 12px, 30px;
     gap: 8px;
@@ -573,7 +573,7 @@ span {
     transition: 1s ease-in-out;
 
 }
-link_button
+
 
 /* Footer section */
 
@@ -881,3 +881,43 @@ input {
     width: 15px;
     border-radius: 10px;
 }
+
+.banner_ellipse{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+.ellipse {
+    position: relative;
+}
+.discount_info{
+font-size: 34px;
+line-height: 41.99px;
+letter-spacing: 0.25px;
+text-align: left;
+
+}
+
+.banner_bg{
+    position: absolute;
+    left: -19%;
+    bottom: 0;
+}
+
+.banner_img{
+    position: relative;
+}
+
+img{
+    max-width: 711px;
+}
+/* .banner_bg{
+    position: absolute;
+    bottom: -79%;
+    left: 43%;
+    rotate: -5deg;
+}
+.banner_img{
+    position: relative;
+}  */

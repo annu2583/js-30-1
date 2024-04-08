@@ -126,6 +126,7 @@ body {
     font-family: var(--body-font);
     /* text-decoration: underline; */
 }
+
 /* .link_button:hover{
     text-decoration-line: underline;
     transition: 5s ease-in;
@@ -177,9 +178,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.nav_link{
+
+.nav_link {
     text-decoration: none;
 }
+
 .btn_container {
     padding: 12px 30px;
     background-color: #EAC07F;
@@ -320,7 +323,7 @@ span {
 
 .testimony_section {
     background-color: #E1DED6;
-;
+    ;
     margin-top: 100px;
 
 
@@ -328,7 +331,7 @@ span {
 
 
 
- .flow_img {
+.flow_img {
     position: absolute;
     left: 0;
     top: 70px;
@@ -354,6 +357,7 @@ span {
 .testi_info {
     padding: 24px 20px;
 }
+
 /* 
 .testimony_section {
     position: relative;
@@ -362,33 +366,37 @@ span {
 .testimony_card{
     position: relative;
 } */
-.flowr_img{
+.flowr_img {
     position: absolute;
     bottom: -50%;
     transform: translate(-28%, -50%);
     rotate: -8deg;
 }
 
-.testimony_section{
+.testimony_section {
     position: relative;
 }
-.testimony_section::before{
+
+.testimony_section::before {
     position: absolute;
     content: "";
     background: url('./assests/images/beans.png');
-    
+
 }
-.testimony_section::after{
+
+.testimony_section::after {
     position: absolute;
     content: "";
     background: url('./assests/images/beans2.png');
-    
+
 }
-.link_button:hover{
+
+.link_button:hover {
     text-decoration-line: underline;
 }
-.icon_btn:hover{
-     color: #EAC07F;
+
+.icon_btn:hover {
+    color: #EAC07F;
     transition-timing-function: 2s linear;
 }
 
@@ -499,13 +507,16 @@ span {
     justify-content: center;
     gap: 30px;
 }
-.img_section{
+
+.img_section {
     position: relative;
 }
-.regular_img{
+
+.regular_img {
     display: block;
 }
-.inner_info{
+
+.inner_info {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -518,39 +529,46 @@ span {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.vdo_sec{
+
+.vdo_sec {
     position: relative;
     max-width: 100%;
 }
-.img{
+
+.img {
     display: block;
 }
-.cross_icon{
+
+.cross_icon {
     display: none;
     text-align: right;
- }
+}
 
 
- .upper_section{
+.upper_section {
     background-color: #FFFBED;
 }
-.content_info{
+
+.content_info {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.banner_content{
+
+.banner_content {
     display: flex;
     gap: 19px;
     margin-top: 83px;
 }
-.banner_info{
+
+.banner_info {
     margin-top: 11px;
 }
-.heading{
-    font-size: 91px;
+
+.heading {
+    font-size: 86px;
 }
 
-.banner_btn{
+.banner_btn {
     display: inline-flex;
     align-items: center;
     gap: 20px;
@@ -568,11 +586,15 @@ span {
     line-height: 26px;
     margin-top: 70px;
 }
-.banner_btn:hover{
+
+.banner_btn:hover {
     background-color: black;
     transition: 1s ease-in-out;
 
 }
+/* .banner_info{
+    width: 758px;
+} */
 
 
 /* Footer section */
@@ -716,10 +738,12 @@ input {
     .nav_list {
         display: none;
     }
-    .nav_list{
+
+    .nav_list {
         display: flex;
         flex-direction: column;
     }
+
     .togle_icon {
         display: block;
     }
@@ -731,7 +755,7 @@ input {
     .nav_bar {
         display: none;
     }
-    
+
     .header_info {
         display: flex;
         flex-direction: column;
@@ -804,13 +828,14 @@ input {
     .section_healing {
         gap: 15px;
     }
-    
-    .religion_sec{
+
+    .religion_sec {
         display: flex;
         flex-direction: column;
         gap: 30px;
     }
-    .nav_menu{
+
+    .nav_menu {
         display: none;
         flex-direction: column;
         background-color: rgb(226, 225, 225);
@@ -819,26 +844,51 @@ input {
         box-shadow: 2px 3px 4px #9E9E9E;
         padding: 20px;
     }
-    .active{
+
+    .active {
         display: flex;
     }
-.side_bar{
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 39%;
-    background-color: #fbf9f9;
-    overflow-x: hidden;
-    transition: 0.8s;
-    /* padding-top: 35px; */
-    margin-top: 10%;
- }
- .cross_icon{
-    display: block;
- }
- .itinery_section{
-    flex-direction: column;
- }
+
+    .side_bar {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 39%;
+        background-color: #fbf9f9;
+        overflow-x: hidden;
+        transition: 0.8s;
+        /* padding-top: 35px; */
+        margin-top: 10%;
+    }
+
+    .cross_icon {
+        display: block;
+    }
+
+    .itinery_section {
+        flex-direction: column;
+    }
+
+    .banner_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner_btn {
+        background-color: black;
+    }
+    /* .banner_section{
+        width: 358px;
+    } */
+    .vl{
+        height: 100px;
+    }
 }
 
 
@@ -868,38 +918,42 @@ input {
     display: flex;
     align-items: center;
   } */
-  .swiper-slide-active {
+.swiper-slide-active {
     transform: scale(1.2);
-  }
-  span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     width: 30px;
     border-radius: 10px;
     background: #EAC07F;
 }
+
 .swiper-pagination-clickable .swiper-pagination-bullet {
     cursor: pointer;
     width: 15px;
     border-radius: 10px;
 }
 
-.banner_ellipse{
+.banner_ellipse {
     position: absolute;
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
 }
+
 .ellipse {
     position: relative;
 }
-.discount_info{
-font-size: 34px;
-line-height: 41.99px;
-letter-spacing: 0.25px;
-text-align: left;
+
+.discount_info {
+    font-size: 34px;
+    line-height: 41.99px;
+    letter-spacing: 0.25px;
+    text-align: left;
 
 }
 
-.banner_bg{
+/* .banner_bg{
     position: absolute;
     left: -19%;
     bottom: 0;
@@ -907,11 +961,12 @@ text-align: left;
 
 .banner_img{
     position: relative;
+} */
+
+img {
+    max-width: 100%;
 }
 
-img{
-    max-width: 711px;
-}
 /* .banner_bg{
     position: absolute;
     bottom: -79%;
@@ -920,4 +975,32 @@ img{
 }
 .banner_img{
     position: relative;
-}  */
+} */
+.banner_img {
+    position: relative;
+}
+
+.banner_bg {
+    position: absolute;
+    bottom: -26px;
+    left: -28%;
+    rotate: -13deg;
+
+}
+
+.vl {
+    border-left: 4px solid #EAC07F;
+    height: 79px;
+    position: absolute;
+    left: -20px;
+    margin-left: 21px;
+    margin-top: 1px;
+}
+
+.sec_content {
+    margin-left: 25px;
+}
+
+.section_content {
+    position: relative;
+} 

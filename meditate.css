@@ -401,8 +401,15 @@ span {
 }
 
 
-
-
+.banner_img{
+    z-index: 999;
+    position: relative;
+}
+.background{
+    position: absolute;
+    top: 368px;
+    right: -28px;
+}
 
 
 
@@ -888,6 +895,12 @@ input {
     } */
     .vl{
         height: 100px;
+    }
+    .banner_info_section{
+        text-align: center;
+    }  
+    .banner_bg{
+        display: none;
     }
 }
 

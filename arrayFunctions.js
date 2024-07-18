@@ -39,7 +39,7 @@
 //     }
 // })
 
-// let data=arr2.map((item)=>item%2===0)
+// let data=arr2.map((item)=>item%2===0)  
 // let data=arr2.filter((item)=>
 // {
 //     if(item%2===0){
@@ -203,8 +203,9 @@
 // console.log(arr.sort());
 
 
-let arr=[1,2,3,4,5]
+let arr=['hello am in hell']
 let first=arr[0];
 console.log(first);
 let last=arr[arr.length -1];
 console.log(last);
+console.log(arr.isArray);

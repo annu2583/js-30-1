@@ -115,78 +115,161 @@
   }
    
 
-  // Print the day nd time 
+//   // Print the day nd time 
 
-let today = new Date();
+// let today = new Date();
 
  
-let day = today.getDay();
+// let day = today.getDay();
 
-let days = ['Sunday', 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday']
+// let days = ['Sunday', 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday']
 
-console.log("Today is :" + days[day]);
+// console.log("Today is :" + days[day]);
 
-// let hours = today.getHours();
-// let minutes = today.getMinutes();
-// let seconds = today.getSeconds();
-// let session = '';
+// // let hours = today.getHours();
+// // let minutes = today.getMinutes();
+// // let seconds = today.getSeconds();
+// // let session = '';
 
-// if (hours>= 12) {
-//   session = "PM";
-// }
-// else{
-//   session = "AM";
-// }
-
-
-// if (hours<10) {
-//   hours = '0' + hours;
-// }
-// if (minutes<10) {
-//   minutes = '0' + minutes;
-// }
-
-// if (seconds<10) {
-//   seconds = '0' + seconds;
-// }
-// let time = today.getHours() + ':' +  today.getMinutes() + ':'+ today.getSeconds() + ' ' + session;
-// let time = hours + ':' + minutes + ':'+ seconds + ' ' + session;
-let time = today.toLocaleTimeString();
-console.log(time);
+// // if (hours>= 12) {
+// //   session = "PM";
+// // }
+// // else{
+// //   session = "AM";
+// // }
 
 
+// // if (hours<10) {
+// //   hours = '0' + hours;
+// // }
+// // if (minutes<10) {
+// //   minutes = '0' + minutes;
+// // }
+
+// // if (seconds<10) {
+// //   seconds = '0' + seconds;
+// // }
+// // let time = today.getHours() + ':' +  today.getMinutes() + ':'+ today.getSeconds() + ' ' + session;
+// // let time = hours + ':' + minutes + ':'+ seconds + ' ' + session;
+// let time = today.toLocaleTimeString();
+// console.log(time);
 
 
 
-let current = new Date();
-let month = current.getMonth();
 
-let date = current.getDate();
 
-let year = current.getFullYear();
+// let current = new Date();
+// let month = current.getMonth();
+
+// let date = current.getDate();
+
+// let year = current.getFullYear();
  
 
-if (month<10) {
-  month = '0' + month;
-}
-if (date<10) {
-  date = '0' + date;
-}
- mm = month + '-' + date + '-' + year ;
- console.log(mm);
+// if (month<10) {
+//   month = '0' + month;
+// }
+// if (date<10) {
+//   date = '0' + date;
+// }
+//  mm = month + '-' + date + '-' + year ;
+//  console.log(mm);
 
-  mm = month + '/' + date + '/' + year ;
-console.log(mm);
+//   mm = month + '/' + date + '/' + year ;
+// console.log(mm);
 
-mm = date + '/' + month + '/' + year ;
-console.log(mm);
+// mm = date + '/' + month + '/' + year ;
+// console.log(mm);
 
-mm = date + '-' + month + '-' + year ;
-console.log(mm);
+// mm = date + '-' + month + '-' + year ;
+// console.log(mm);
 
 
 
-myColor = ["Red", "Green", "White", "Black"];
-console.log(myColor.toString());
-console.log(myColor.join());
+// myColor = ["Red", "Green", "White", "Black"];
+// console.log(myColor.toString());
+// console.log(myColor.join());
 
+// for (let i = 0; i < 5; i++) {
+//  console.log("Hello world");;
+  
+// }
+
+
+// for (let i = 0; i < 5; i++) { 
+//   console.log("Hello World!"); 
+// }
+// let i = 0;
+// while (i<6) {
+//   console.log(i);
+//   i++
+// }
+
+
+
+let arr = [1,2,3,4,5]
+
+let arr2 = ['a','b', 'c', 'd', 'e']
+
+console.log(Array.isArray(arr));
+console.log(Array.isArray('[]'));
+
+//AT function
+console.log(arr2.at(2));
+
+//concat function
+console.log(arr.concat(arr2));
+
+//  entries
+
+ let alphabet = ['u','l','j']
+let line= alphabet.entries();
+console.log(line.next().value);
+console.log(line.next().value);
+
+//flat
+const arr3 = [0, 1, 2, [3, 4]];
+
+console.log(arr3.flat());
+console.log(arr3.flat(2));
+
+
+//Reduce
+ const arr4 =[2,4,5,6,8,9];
+ let data=arr4.reduce((acc,currentValue)=>acc+currentValue)
+console.log(data);
+
+
+//of
+console.log(Array.of('gap', 0, 'col'));
+
+console.log(Array.from('collection'));
+
+//copywithin
+
+console.log(arr2.copyWithin(0,1,2));
+
+
+//every
+
+let arr5 = [64,70,60,50,10,45,34]
+let condition = (currentValue)=> currentValue>40
+console.log(arr5.every(condition));
+
+//fill 
+console.log(arr5.fill(7,3,5));
+
+//filter
+
+let words = ['separate','formal','cot','funnel']
+let clause =words.filter((word)=>word.length<4);
+console.log(clause);
+
+//find
+let numeric = [2,1,8,6,7]
+let col = numeric.find((element)=>element>4)
+console.log(col);
+
+const array1 = [5, 12, 8, 130, 44];
+const found = array1.find((element) => element > 10);
+console.log(found);
